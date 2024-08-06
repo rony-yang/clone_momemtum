@@ -44,5 +44,12 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
     paintGreetings(savedUsername); 
   }
 
+// Enter 키를 누를 때 onLoginSubmit 실행
+loginInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+      onLoginSubmit(event);
+  }
+});
+
   logoutButton.addEventListener("click", clickLogoutButton);   
   // localStorage.removeItem("username"); // 콘솔에 바로 입력
