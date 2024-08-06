@@ -16,7 +16,7 @@ JS 개인 프로젝트
 
 - 언어 : javaScript
 
-- 웹 개발 : HTML, CSS(bootstrap)
+- 웹 개발 : HTML, CSS
 
 - IDE : vs code, Github
 
