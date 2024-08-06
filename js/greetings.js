@@ -5,6 +5,7 @@ const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
+// 로그인 버튼을 누르면
 function onLoginSubmit(event) {
   const username = loginInput.value;
   // username이 공백이거나 글자수 체크하는 유효성검사를 js에서 하지 않고 html에서 바로 해준다 (required, maxlength 사용)

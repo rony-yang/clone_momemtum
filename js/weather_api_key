@@ -1,0 +1,2 @@
+const API_KEY = "523fbbc7f94e967297e0af16b75aa6cc"; // https://home.openweathermap.org/에서 추출
+// export default API_KEY;

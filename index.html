@@ -9,24 +9,27 @@
 </head>
 <body>
   <form id="login-form" class="hidden">
-    <input 
-      required 
-      maxlength="15" 
-      type="text" 
-      placeholder="What is your name?" />
-    <button>Log in</button>
+    <input class="name-input" required maxlength="15" type="text" placeholder="이름을 적어주세요." />
+    <button class="login-button">로그인</button>
   </form>
   <h1 id="greeting" class="hidden"></h1>
   <h2 id="clock">00:00:00</h2>
   <form id="todo-form">
-    <input type="text" placeholder="할 일 목록을 적어서 확인을 눌러주세요." required>
+    <input type="text" class="todo-input" placeholder="할 일 목록을 적어서 확인을 눌러주세요." required>
   </form>
   <ul id="todo-list"></ul>
+  <br>
   <div id="quote">
     <span></span>
     <span></span>
   </div>
-
+  <br>
+  <div id="weather">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
   <script src="js/greetings.js"></script>
   <script src="js/clock.js"></script>

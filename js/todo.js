@@ -35,6 +35,7 @@ function paintToDo(newToDo) {
 
   const button = document.createElement("button");
   button.innerText = "❌";
+  button.classList.add("button-style");
   button.addEventListener("click", deleteToDo); // 마우스 클릭으로 삭제 이벤트 실행
 
   li.appendChild(span); // li 안에 span 넣어주기

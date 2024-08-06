@@ -1,3 +1,131 @@
 .hidden {
   display: none;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* 이름 입력하는 인풋박스 */
+.name-input {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+/* 로그인 버튼 */
+.login-button {
+  position: relative;
+  border: none;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 10px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: aliceblue;
+  color: #1e6b7b;
+}
+
+.logout-button {
+
+}
+
+#login-form,
+#clock,
+#greeting,
+#todo-form,
+#todo-list,
+#quote {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+/* 날씨 표시 */
+#weather {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  text-align: left;
+  z-index: 1;
+  color: white;
+}
+
+#weather span {
+  display: block;
+  margin: 5px 0; 
+}
+
+#weather img {
+  display: block;
+  margin-top: 10px; 
+}
+
+#greeting {
+  font-size: 4em;
+}
+
+#clock {
+  font-size: 2em;
+}
+
+
+/* 이미지 뒷 배경으로 넣기 */
+img {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* 할 일 목록 인풋박스 */
+#todo-form {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  width: 100%; 
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+/* 명언 문구 */
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote span {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* 할일목록 x 버튼 스타일 */
+.button-style {
+  border: none; 
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
