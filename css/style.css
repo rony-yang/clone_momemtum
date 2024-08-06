@@ -29,7 +29,6 @@ body {
   display: inline-block;
   padding: 7px 20px;
   border-radius: 10px;
-  font-family: "paybooc-Light", sans-serif;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   font-weight: 600;
@@ -38,8 +37,21 @@ body {
   color: #1e6b7b;
 }
 
+/* 로그아웃 버튼 */
 .logout-button {
-
+  z-index: 1;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: aliceblue;
+  color: #1e6b7b;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 #login-form,
